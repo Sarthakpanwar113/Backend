@@ -16,7 +16,7 @@ exports.createPost = async (req, res) => {
     }
     catch(err){
         return res.status(400).json({
-            error : "Error While Creating Post ok bhai"
+            error : "Error While Creatisadasang Post ok bhai"
         })
     }
 }
@@ -33,7 +33,7 @@ exports.getAllPosts = async (req, res) => {
     catch(err)
     {
         return res.status(400).json({
-            error : "Error while Fetching Post "
+            error : "Error while Fetching qwqwwPost "
         })
     }
 }
