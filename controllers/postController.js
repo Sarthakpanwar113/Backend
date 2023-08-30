@@ -16,7 +16,7 @@ exports.createPost = async (req, res) => {
     }
     catch(err){
         return res.status(400).json({
-            error : "Error While Creating Post"
+            error : "Error While Creating Post ok bhai"
         })
     }
 }
